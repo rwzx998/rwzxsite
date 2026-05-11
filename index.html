@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>RWZX</title>
+  <link rel="stylesheet" href="main.css" />
+</head>
+<body>
+  <div class="video-container">
+    <video autoplay loop muted playsinline class="back-video" poster="poster.jpg">
+      <source src="Video.mp4" type="video/mp4" />
+    </video>
+    <div class="overlay"></div>
+  </div>
+
+  <div id="main-wrapper">
+    <div id="header-section">
+      <h1 class="glow-text">RWZX</h1>
+      <p id="instruction" class="tap-text"class="visibal">tap to continue</p>
+    </div>
+
+    <div id="middle-card" class="hidden">
+      <div class="clock-row">
+        <div class="clock-icon"></div>
+        <span id="digital-clock">00:00:00</span>
+      </div>
+
+      <div class="card-info">
+        <p id="line1"></p>
+        <p id="line2"></p>
+      </div>
+
+      <div class="profile-row">
+        <div class="pfp-circle">
+          <img src="pfp.jpg" alt="PFP" />
+        </div>
+        <div class="profile-text">
+          <span class="profile-name">RWZX</span>
+          <span id="session-counter">Stayed for 0s</span>
+        </div>
+      </div>
+    </div>
+
+    <div id="footer-bar" class="hidden">
+      <p>Dev by rwzx</p>
+    </div>
+  </div>
+
+  <script src="main.js"></script>
+</body>
+</html>
