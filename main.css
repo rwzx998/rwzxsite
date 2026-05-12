@@ -232,7 +232,6 @@ body {
   padding: 15px 0;
   text-align: center;
   border-top: 1px solid rgba(255, 255, 255, 0.06);
-  padding: 16%;
 }
 
 #footer-bar p {
@@ -240,7 +239,6 @@ body {
   color: rgba(255, 255, 255, 0.34);
   letter-spacing: 3px;
   text-transform: lowercase;
-  transform: translateY(-370%);
 }
 
 @keyframes titlePulse {
